@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&family=Source+Sans+Pro&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Serif', sans-serif;
+}
+
+.background {
+  border: 10px solid #42b4e6;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.top-bar__column {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.top-bar__column:first-child {
+  width: 20%;
+}
+.top-bar__column:last-child {
+  font-size: 180%;
+  margin-left: -10%;
+  width: 80%;
+  color: #42b4e6;
+}
+
+.singer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.singer__photo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10%;
+  border: solid #42b4e6;
+}
+.singer__photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.singer__name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  height: 150px;
+  margin: 10px;
+}
+
+.singer__name div {
+  /* border: 2px solid black; */
+  font-size: 350%;
+  font-weight: bold;
+}
+.singer__name span {
+  /* border: 2px solid black; */
+  margin: 40px 0 0 10px;
+  color: #42b4e6;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+.btn__play,
+.btn__heart,
+.btn__plus {
+  /* width: 60%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px 30px;
+  font-size: 150%;
+  border: solid #42b4e6;
+  border-width: 1px 1px 3px 1px;
+}
+
+.btn__play {
+  /* width: 200px; */
+  border-radius: 10%;
+  margin-right: 50px;
+}
+.btn__heart {
+  /* width: 100px; */
+  border-radius: 50%;
+  padding: 10px 11px;
+}
+.btn__plus {
+  /* width: 100px; */
+  border-radius: 50%;
+  padding: 10px 11px;
+}
+
+.songs {
+  margin-top: 20px;
+}
+.songs__album {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 10px;
+  /* border: 2px solid brown; */
+}
+
+.songs__album-pic-size {
+  width: 100px;
+  height: 100px;
+}
+
+.songs__album-pic {
+  margin-left: 10%;
+}
+
+.songs__album-name {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  margin-left: 5%;
+  /* border: 2px solid mediumslateblue; */
+}
+
+.songs__album-name-title {
+  font-size: 120%;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+
+.songs__album-name-singer {
+  color: #73848b;
+}
